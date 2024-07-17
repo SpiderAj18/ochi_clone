@@ -7,7 +7,8 @@ export default {
   theme: {
     extend: {
       fontFamily:{
-        'neue':['Neue Montreal']
+        'neue':['Neue Montreal'],
+        'fg' :['Founders Grotesk'],
       }
     },
   },

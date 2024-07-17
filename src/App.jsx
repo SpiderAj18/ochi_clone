@@ -1,11 +1,14 @@
 import React from "react";
 import Navbar from "./components/Navbar"
 import Landingpage from "./components/Landingpage";
+import Marquee from "./components/Marquee";
 
 function App() {
-  return <div className=" w-full h-screen text-white">
+  return <div className=" w-full min-h-screen text-white bg-zinc-950">
    <Navbar/>
    <Landingpage/>
+   <Marquee/>
+   
   </div>;
 }
 
